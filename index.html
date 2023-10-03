@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tip Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Hind&family=Inter:wght@200&family=Roboto+Condensed&family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+   <div class="form" id="form">
+        <h1 class="header">Tip Calculator </h1>
+       <main> 
+                <p class="description"> Enter the bill amount and tip precentage to calculate the total</p>
+            <div class="inputs">
+                <p>Bill Amount:</p>
+                <input type="text" class="bill" id="bill" placeholder="Enter the amount" autocomplete="off">
+                <p>Tip precentage:</p>
+                <input type="text" class="precentage" id="precentage" placeholder="Enter the precentage" autocomplete="off">
+            </div>
+                <button class="btn" id="btn">Calculate</button>
+                <p class="total"> Total: <span id="total"> </span> </p>
+                <p  class="error" id="error"></p>
+       </main>    
+   </div>
+
+    
+
+
+    <script src="index.js"></script>
+</body>
+</html>
